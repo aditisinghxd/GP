@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - deap
+  - matplotlib
+  - networkx
+  - plotly
+  - geopandas
+  - seaborn
+  - scipy
+  - gdal
+  - pymoo
+  - pyproj=3.5
+  - proj=9.1
+  - gdal=3.6
+  
