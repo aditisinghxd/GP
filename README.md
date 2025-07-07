@@ -41,6 +41,6 @@ This repository contains:
   import plotly.io as pio
   pio.renderers.default = "browser"
 
-All modifications are by [Aditi Singh / @singhad], 2025.
+All modifications are by [Aditi Singh / @aditisinghxd], 2025.
 
 ---
