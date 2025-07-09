@@ -184,5 +184,5 @@ if __name__ == "__main__":
     #     pf_intrinsic_land_use_order_vector = pickle.load(handle)
 
     #main()
-    #run_time_analysis(problem_type="vector")
+    run_time_analysis(problem_type="vector")
     uncertainty_analysis()
