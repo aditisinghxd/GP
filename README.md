@@ -15,20 +15,19 @@ In their work, they introduced genetic programming for evolving functions that e
 
 ## Credits
 
-- **Original Authors:**  
-  - Moritz J. Hildemann (Institute for Geoinformatics, University of Münster, Germany)  
-  - Alan T. Murray (Department of Geography, University of California at Santa Barbara, USA)  
+- **Original Authors:**
+  - Moritz J. Hildemann (Institute for Geoinformatics, University of Münster, Germany)
+  - Alan T. Murray (Department of Geography, University of California at Santa Barbara, USA)
   - Judith A. Verstegen (Department of Human Geography and Spatial Planning, Utrecht University, The Netherlands)
 
 - **Original Paper:** [DOI: 10.4230/LIPIcs.GIScience.2023.4](https://doi.org/10.4230/LIPIcs.GIScience.2023.4)
 
-- **Dataset and Supplementary Material:**  
-  - [Code and input data (Mendeley)](https://data.mendeley.com/datasets/4tw223jvjv/3)  
+- **Dataset and Supplementary Material:**
+  - Hildemann, Moritz Jan (2023). *Genetic programming for computationally efficient land use allocation optimization*. Mendeley Data, V3. [https://doi.org/10.17632/4tw223jvjv.3](https://doi.org/10.17632/4tw223jvjv.3)
   - [Supplementary Illustrations (Figshare)](https://doi.org/10.6084/m9.figshare.21977228.v2)
 
 - **License:** This project is shared under **CC-BY 4.0**, following the license of the original authors.
 
----
 
 ## Modifications
 
