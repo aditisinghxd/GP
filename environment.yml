@@ -16,4 +16,5 @@ dependencies:
   - pyproj=3.5
   - proj=9.1
   - gdal=3.6
-  
+  - pygraphviz
+  - graphviz

@@ -1,6 +1,10 @@
 import numpy as np
 import pickle
+import sys
 import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 
 from help_and_utility_functions import plotting
 from help_and_utility_functions.CoMOLA_help_functions import get_optimal_solutions_GA_CoMOLA
@@ -8,7 +12,9 @@ from optimization_setup.gp_specs import get_deap_gp_specifications
 from help_and_utility_functions.utility_functions import get_optimal_solutions, get_optimal_solutions_pymoo
 from optimization_setup.problem import test_problem_vector, comola_single_cells, comola_patches
 from optimization_setup.map_translation_and_validation import validate_landuse_map
-parDir = os.path.abspath(os.pardir)
+#parDir = os.path.abspath(os.pardir)
+parDir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
 
 def compute_objective_values_initial_solution(landuse_problem):
     validity, landuse_map, landuse_array = validate_landuse_map(landuse_problem.initial_landuse_map_datasource, landuse_problem.constraints, landuse_column_name = "landuse_re")
